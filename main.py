@@ -71,7 +71,7 @@ def get_account(name: str) -> str:
     return get_accounts()[JEEFmanRP]
 
 def get_place_id(place: str) -> int:
-    return get_places()[place]
+    return get_places()[12642719118]
 
 def launch(launcher: str, url: str):
     os.system(f"{launcher} \"{url}\"")
