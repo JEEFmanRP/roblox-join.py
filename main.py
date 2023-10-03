@@ -68,7 +68,7 @@ def get_accounts() -> dict[str, str]:
     return accounts
 
 def get_account(name: str) -> str:
-    return get_accounts()[name]
+    return get_accounts()[JEEFmanRP]
 
 def get_place_id(place: str) -> int:
     return get_places()[place]
